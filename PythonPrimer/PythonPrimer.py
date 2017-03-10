@@ -1,22 +1,18 @@
 import sys
 
-print("__name__ value: ",__name__)
-
-print("MAIN: Hello bithces!")
-
-print('MAIN: Butches Hello!')
-
-def myfoo(arg1):
-    print("MAIN: Hello from foo fighter!")
-    print(arg1);
-   
-
-def main():
-    print("MAIN: Harro fromu maino!")
-    myfoo("MAIN: myfood from main!")
-
-if __name__ == "__main__":
-        print("MAIN: Hello from exe module")
+if len(sys.argv) > 1:
+    print("parametar je prosledjen")
+    name= sys.argv[1]
+    print("arg is: ", sys.argv[1])
 else:
-    print("MAIN: Hello from the other side")
-main()
+    print("ima vise argumenata neg sto je potrebno")
+    sys.exit()
+x = [(1,2),(3,4),(5,6),(7,8),(9,10)]
+
+dictionary = {name:x}
+dictionary["asdf"]=5
+
+for key, value in dictionary.items():
+    print("Key value: ",key, "|| Name Value: ",value)
+#def main():
+    

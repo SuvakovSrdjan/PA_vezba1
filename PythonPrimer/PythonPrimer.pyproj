@@ -5,13 +5,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c2236460-694a-4955-9a1a-3ff9732d0b97</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DodatakPrimeru.py</StartupFile>
+    <StartupFile>PythonPrimer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PythonPrimer</Name>
     <RootNamespace>PythonPrimer</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>key</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,9 +25,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DodatakPrimeru.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="PythonPrimer.py" />
   </ItemGroup>
   <PropertyGroup>
